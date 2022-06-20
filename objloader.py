@@ -89,7 +89,7 @@ class OBJ:
                 glBindTexture(GL_TEXTURE_2D, mtl['texture_Kd'])
             else:
                 # just use diffuse colour
-                glColor(*mtl['Kd'])
+            	glColor(*mtl['Kd'])
 
             glBegin(GL_POLYGON)
             for i in range(len(vertices)):
